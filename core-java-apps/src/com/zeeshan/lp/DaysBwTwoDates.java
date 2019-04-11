@@ -25,6 +25,7 @@ public class DaysBwTwoDates {
 		String s2 = scn.nextLine();
 		System.out.println("The Days between Dates " + s1 + " and " + s2 + " is: " + countDays(s1, s2));
 		System.out.println("The Years between Dates " + s1 + " and " + s2 + " is: " + (countDays(s1, s2))/365);
+		scn.close();
 	}
 
 }

@@ -32,8 +32,8 @@ public class OccuranceCount {
 
 	public static void main(String[] args) {
 
+		countOccurance("Mera Bharat Mahaan");
 		countOccurance("ZEESHAN ALAM KHAN");
-		countOccurance("Warsi Clinic Sahawar");
 	}
 
 }

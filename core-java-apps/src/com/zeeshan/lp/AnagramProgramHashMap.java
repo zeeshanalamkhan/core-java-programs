@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class AnagramProgramHashMap {
 
-	public static String isAnagram(String s1, String s2) {
+	public static String checkAnagram(String s1, String s2) {
 		String status = null;
 		Map<Character, Integer> map1 = new HashMap<>();
 		Map<Character, Integer> map2 = new HashMap<>();
@@ -39,6 +39,7 @@ public class AnagramProgramHashMap {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(isAnagram("Kerala", "KARELA"));
+		System.out.println(checkAnagram("Kerala", "KARELA"));
+		System.out.println(checkAnagram("smile","miles"));
 	}
 }

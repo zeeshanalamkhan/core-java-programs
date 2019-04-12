@@ -37,7 +37,7 @@ public class AnagramProgramHashMap {
 		}
 		return status;
 	}
-
+	//main method
 	public static void main(String[] args) {
 		System.out.println(isAnagram("Kerala", "KARELA"));
 	}
